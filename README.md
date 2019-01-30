@@ -4,10 +4,10 @@ To deploy the environment run:
 
  
 
-git clone https://github.com/Israel_israeli/my_repo.git
+git clone https://github.com/ambareldad/midproj.git
 
-change variables.tf file
-the sections:
+change variables.tf file the sections:
+
 variable "aws_access_key" {
     default = ""
 } 
@@ -25,21 +25,3 @@ variable "aws_key_name" {
 cd my_repo/teraform
 terraform init
 terraform apply --auto-approve
-
- 
-
- 
-
-To check your environment run:
-
- 
-
-Elasticsearch: curl XXXXXX:
-
-dummyExporterService:  curl XXXXX:yyyy
-
-Prometheus:   
-
-Grafana:
-
-Kibana:  ……...
