@@ -22,6 +22,6 @@ variable "aws_key_name" {
 }
 
 
-cd my_repo/teraform
+cd midproj
 terraform init
 terraform apply --auto-approve
